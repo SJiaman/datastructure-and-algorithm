@@ -1,4 +1,4 @@
-package fun.shijin.datastructures.sort;
+package fun.shijin.algorithm.sort;
 
 import java.util.Arrays;
 

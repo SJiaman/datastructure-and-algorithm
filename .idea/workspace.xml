@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21825a6-83df-4d72-8544-e0db30b05180" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/src/fun/shijin/datastructures/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/fun/shijin/algorithm/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/fun/shijin/datastructures/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/fun/shijin/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/fun/shijin/datastructures/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/fun/shijin/datastructures/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/fun/shijin/datastructures/queue/ArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/fun/shijin/datastructures/queue/ArrayQueueDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.QuickSort (1)">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fun.shijin.datastructures.queue.ArrayQueueDemo" />
       <module name="DataStructures" />
@@ -79,11 +82,37 @@
       </method>
     </configuration>
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.shijin.datastructures.sort.BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="fun.shijin.algorithm.sort.BubbleSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.shijin.datastructures.sort.*" />
+          <option name="PATTERN" value="fun.shijin.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.shijin.algorithm.sort.QuickSort" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.shijin.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.shijin.algorithm.sort.QuickSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.shijin.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort (1)" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.SparseArray" />
@@ -129,8 +160,16 @@
       <workItem from="1649995930594" duration="5527000" />
       <workItem from="1650114936160" duration="52000" />
       <workItem from="1650351958138" duration="418000" />
-      <workItem from="1669686560905" duration="930000" />
+      <workItem from="1669686560905" duration="5130000" />
     </task>
+    <task id="LOCAL-00001" summary="冒泡排序">
+      <created>1669687599852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669687599852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +185,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithm/src/fun/shijin/algorithm/sort/QuickSort.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaDataStructuresAndAlgorithm$BubbleSort.ic" NAME="BubbleSort Coverage Results" MODIFIED="1669687211531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
