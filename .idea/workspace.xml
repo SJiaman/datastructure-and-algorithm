@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c21825a6-83df-4d72-8544-e0db30b05180" name="Default Changelist" comment="" />
+    <list default="true" id="c21825a6-83df-4d72-8544-e0db30b05180" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructures/src/fun/shijin/datastructures/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +14,18 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,6 +40,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1oCdyXZUUGXus7lE4a3Wi0lSgtU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -52,13 +64,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayQueueDemo">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fun.shijin.datastructures.queue.ArrayQueueDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fun.shijin.datastructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.shijin.datastructures.sort.BubbleSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.shijin.datastructures.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.SparseArray" />
       </list>
@@ -103,10 +129,27 @@
       <workItem from="1649995930594" duration="5527000" />
       <workItem from="1650114936160" duration="52000" />
       <workItem from="1650351958138" duration="418000" />
+      <workItem from="1669686560905" duration="930000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaDataStructuresAndAlgorithm$BubbleSort.ic" NAME="BubbleSort Coverage Results" MODIFIED="1669687211531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fun.shijin.datastructures.sort.*</FILTER>
+    </SUITE>
   </component>
 </project>
